@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #bffcc6; /* Light green to match the GIF */
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 600px;
+    margin: 100px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    color: #ff9800;
+}
+
+p {
+    color: #333;
+}
+
+.contact-link {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background-color: #ff9800;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 10px;
+    transition: background 0.3s;
+}
+
+.contact-link:hover {
+    background-color: #ff5722;
+}
+
+/* Reduced GIF Size */
+.gif {
+    width: 200px;  /* Reduced from 300px */
+    height: auto;
+    margin-top: 20px;
+}

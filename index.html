@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akash's Profile</title>
+    <link rel="stylesheet" href="profile-styles.css"> <!-- Updated CSS file -->
+</head>
+<body>
+    <div class="container">
+        <h1>Meet Akash Jaiswal ❤️</h1>
+        
+        <div class="profile-section">
+            <!-- Profile Image -->
+            <div class="profile-picture-container">
+                <img src="ui.JPG" alt="Akash Jaiswal" class="profile-picture">
+            </div>
+
+            <!-- Profile Info -->
+            <div class="profile-info">
+                <p><strong>Name:</strong> Akash Jaiswal</p>
+                <p><strong>Hobbies:</strong> Chatting, Gaming, Eating</p>
+                <p><strong>Favorite Color:</strong> Black</p>
+            </div>
+        </div>
+
+        <div class="interests">
+            <h2>A Bit About Me</h2>
+            <div class="dropdown">
+                <button class="dropdown-btn">Click to Read</button>
+                <div class="dropdown-content">
+                    <p>I love meeting new people and trying different types of foods. Tech enthusiast and a gamer at heart!</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact">
+            <a href="profile.html">See Profile</a>
+        </div>
+    </div>
+
+    <script>
+        document.querySelector('.dropdown-btn').addEventListener('click', function() {
+            this.parentElement.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>

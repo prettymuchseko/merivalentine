@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black; /* Keeping the dark theme */
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: white; /* White text for contrast */
+}
+
+.container {
+    max-width: 600px;
+    margin: 100px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1); /* Slightly transparent white */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
+}
+
+h1 {
+    color: red; /* Red for dramatic effect */
+}
+
+p {
+    color: white;
+}
+
+/* Keep the GIF size larger */
+.gif {
+    width: 300px;  
+    height: auto;
+    margin-top: 20px;
+}
